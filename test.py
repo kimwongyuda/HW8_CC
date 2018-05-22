@@ -2,7 +2,7 @@
 link_dic= {
 }
 
-file = open('2.5MB.txt','r')
+file = open('5GB.txt','r')
 lines = file.readlines()
 for line in lines:
     islink = line in link_dic.keys()
